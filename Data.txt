@@ -1,0 +1,132 @@
+remedies = [
+    {
+		Id = 1,
+		Name = "Sore Throat",
+		Remedies = [Honey, Lemon ]
+		Description = "A soothing remedy for sore throats and cough."
+		Benefits = "Honey is antibacterial and soothes irritation, while lemon provides vitamin C."
+		Preparation = "Mix 1 tablespoon of honey with the juice of half a lemon in warm water."
+		Usage = "Drink 2–3 times a day."
+	},
+
+	{
+		Id = 2,
+		Name = "Digestion",
+		Remedies = ["Ginger Tea"],
+		Description = "A natural digestive aid that helps with bloating and nausea."
+		Benefits = "Ginger has anti-inflammatory and stomach-settling properties."
+		Preparation = "Boil 1 teaspoon of grated ginger in a cup of water for 5 minutes."
+		Usage = "Drink after meals."
+	},
+
+	{
+		Id = 3,
+		Name = "Inflammation"
+		Remedies = ["Turmeric Milk"]
+		Description = "Known as "Golden Milk," it helps reduce inflammation and boosts immunity."
+		3.3 Benefits: Turmeric contains curcumin, a powerful anti-inflammatory compound.
+		3.4 Preparation: Mix 1 teaspoon of turmeric powder in a cup of warm milk. Add honey for taste.
+		3.5 Usage: Drink before bedtime.
+	},
+
+	{
+		Id = 4,
+		Name = "Skin Burns"
+		Remedies = ["Aloe Vera"]
+		Description = "A cooling gel for burns and sunburn relief."
+		Benefits = "Aloe vera hydrates and promotes skin healing."
+		Preparation = "Extract fresh aloe vera gel from the leaf."
+		Usage = "Apply directly to the affected area 2–3 times a day."
+	},
+
+	{
+		Id = 5,
+		Name = "Headaches",
+		Remedies = ["Peppermint Oil"],
+		Description = "A natural pain reliever for tension headaches."
+		Benefits = "Peppermint has menthol, which relaxes muscles and improves blood flow."
+		Preparation = "Dilute a few drops of peppermint oil with a carrier oil (like coconut oil)."
+		Usage = "Massage onto temples and the back of the neck"
+
+    }
+]
+
+Tips = [
+	{
+		Id : 1,
+		Name : "Sore Throat",
+		Tips : 
+		[
+			{
+				TipId:1,	
+				"Avoid giving honey to children under one year old due to the risk of botulism." 
+			},
+			{
+				TipId:2,
+				TipName:"Use raw honey for maximum antibacterial benefits."
+			}
+		]
+
+	},
+	{
+		Id : 2,
+		Name : "Digestion",
+		Tip : 
+		[ 
+			{
+				TipId:3,
+				TipName:"Drink ginger tea in moderation (1–2 cups daily) to avoid stomach irritation."
+			},
+			{
+				TipId:4,
+				TipName:"If you have acid reflux, consume ginger in small amounts, as excessive intake may worsen symptoms."
+			}
+		]
+	},
+	{
+		Id : 3, 
+		Name : "Inflammation",
+		Tip :
+		[
+			{
+				TipId:4,
+				TipName:"Add a pinch of black pepper to enhance curcumin absorption."
+			},
+			{
+				TipId:5,
+				TipName:"If you're on blood thinners, consult a doctor before consuming turmeric regularly."
+			}
+		]	
+	},
+	{
+		Id : 4,
+		Name : "Skin Burns",
+		Tip :  
+		[
+			{
+				TipId:6,
+				TipName:"Always use fresh aloe vera or a pure gel without added chemicals."
+			},
+			{
+				TipId:7,
+				TipName:"Test on a small patch of skin first to check for allergic reactions."
+			}
+
+		]
+	},
+
+	{
+		Id : 5,
+		Name : "Headaches"
+		Tip : [
+			{
+				TipId:8,
+				TipName:"Never apply peppermint oil directly to the skin without diluting it first."
+			},
+			{
+				TipId:9,
+				TipName:"Avoid using peppermint oil if you have asthma, as it may trigger breathing issues."
+			}
+		]
+	}
+]

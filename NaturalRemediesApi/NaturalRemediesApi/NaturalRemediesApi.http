@@ -1,0 +1,6 @@
+@NaturalRemediesApi_HostAddress = http://localhost:5052
+
+GET {{NaturalRemediesApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

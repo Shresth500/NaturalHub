@@ -1,0 +1,80 @@
+Remedies for Disease -
+1. Sore Throat
+	1.1 Remedies - Honey, Lemon (Products)
+	1.2 Description: A soothing remedy for sore throats and cough.
+	1.3 Benefits: Honey is antibacterial and soothes irritation, while lemon provides vitamin C.
+	1.4 Preparation: Mix 1 tablespoon of honey with the juice of half a lemon in warm water.
+	1.5 Usage: Drink 2–3 times a day.
+
+
+2. Digestion
+	2.1 Remedies - Ginger Tea
+	2.2 Description: A natural digestive aid that helps with bloating and nausea.
+	2.3 Benefits: Ginger has anti-inflammatory and stomach-settling properties.
+	2.4 Preparation: Boil 1 teaspoon of grated ginger in a cup of water for 5 minutes.
+	2.5 Usage: Drink after meals.
+
+
+3. Inflammation
+	3.1 Remedies - Turmeric Milk
+	3.2 Description: Known as "Golden Milk," it helps reduce inflammation and boosts immunity.
+	3.3 Benefits: Turmeric contains curcumin, a powerful anti-inflammatory compound.
+	3.4 Preparation: Mix 1 teaspoon of turmeric powder in a cup of warm milk. Add honey for taste.
+	3.5 Usage: Drink before bedtime.
+
+4. Skin Burns
+	4.1 Remedies - Aloe Vera
+	4.2 Description: A cooling gel for burns and sunburn relief.
+	4.3 Benefits: Aloe vera hydrates and promotes skin healing.
+	4.4 Preparation: Extract fresh aloe vera gel from the leaf.
+	4.5 Usage: Apply directly to the affected area 2–3 times a day.
+
+5. Headaches
+	5.1 Remedies - Peppermint Oil
+	5.2 Description: A natural pain reliever for tension headaches.
+	5.3 Benefits: Peppermint has menthol, which relaxes muscles and improves blood flow.
+	5.4 Preparation: Dilute a few drops of peppermint oil with a carrier oil (like coconut oil).
+	5.5 Usage: Massage onto temples and the back of the neck
+
+Health Tips -
+1. Sore Throat
+	Tip 1.1: Avoid giving honey to children under one year old due to the risk of botulism.
+	Tip 1.2: Use raw honey for maximum antibacterial benefits.
+
+
+2. Digestion
+	Tip 2.1: Drink ginger tea in moderation (1–2 cups daily) to avoid stomach irritation.
+	Tip 2.2: If you have acid reflux, consume ginger in small amounts, as excessive intake may worsen symptoms.
+
+
+3. Inflammation
+	Tip 3.1: Add a pinch of black pepper to enhance curcumin absorption.
+	Tip 3.2: If you're on blood thinners, consult a doctor before consuming turmeric regularly.	
+
+4. Skin Burns
+	Tip 4.1: Always use fresh aloe vera or a pure gel without added chemicals.
+	Tip 4.2: Test on a small patch of skin first to check for allergic reactions.
+
+5. Headaches
+	Tip 5.1: Never apply peppermint oil directly to the skin without diluting it first.
+	Tip 5.2: Avoid using peppermint oil if you have asthma, as it may trigger breathing issues.
+
+
+Products - 
+
+Product Id
+Product Name
+Product Price
+Manufactured by
+Stock
+
+
+
+User
+
+User Id
+User Name
+User Email
+Add To Cart
+Buyed Items
+

@@ -1,0 +1,48 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+Natural-Remedies-App/dist
+Natural-Remedies-App/tmp
+Natural-Remedies-App/out-tsc
+Natural-Remedies-App/bazel-out
+
+# Node
+Natural-Remedies-App/node_modules
+Natural-Remedies-App/npm-debug.log
+Natural-Remedies-App/yarn-error.log
+
+# IDEs and editors
+Natural-Remedies-App/.idea/
+Natural-Remedies-App/.project
+Natural-Remedies-App/.classpath
+Natural-Remedies-App/.c9/
+Natural-Remedies-App/*.launch
+Natural-Remedies-App/.settings/
+Natural-Remedies-App/*.sublime-workspace
+
+# Visual Studio Code
+Natural-Remedies-App/.vscode/*
+Natural-Remedies-App/!.vscode/settings.json
+Natural-Remedies-App/!.vscode/tasks.json
+Natural-Remedies-App/!.vscode/launch.json
+Natural-Remedies-App/!.vscode/extensions.json
+Natural-Remedies-App/.history/*
+
+# Miscellaneous
+Natural-Remedies-App/.angular/cache
+Natural-Remedies-App/.sass-cache/
+Natural-Remedies-App/connect.lock
+Natural-Remedies-App/coverage
+Natural-Remedies-App/libpeerconnection.log
+Natural-Remedies-App/testem.log
+Natural-Remedies-App/typings
+
+# System files
+Natural-Remedies-App/.DS_Store
+Natural-Remedies-App/Thumbs.db
+
+# Visual Studio 2022
+NaturalRemediesApi/NaturalRemediesApi/bin
+NaturalRemediesApi/NaturalRemediesApi/obj
+NaturalRemediesApi/.vs/
+

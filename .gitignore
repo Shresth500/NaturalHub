@@ -46,3 +46,10 @@ NaturalRemediesApi/NaturalRemediesApi/bin
 NaturalRemediesApi/NaturalRemediesApi/obj
 NaturalRemediesApi/.vs/
 
+# User-specific files
+*.user
+*.suo
+
+# Environment files
+*.env
+

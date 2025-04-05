@@ -1,0 +1,18 @@
+<ul class="list-active">
+  Tips - @for(healthtip of healthtips.tips.slice(0,showFullList?
+  healthtips.tips.length : visibleLimit);track healthtip.tipId){
+  <li>{{ healthtip.tipName }}</li>
+  }
+  <br />
+  <!-- <button
+    *ngIf="healthtips.tips.length >= visibleLimit"
+    class="btn btn-link p-0"
+    (click)="toggleList()"
+  >
+    {{ showFullList ? "Show Less" : "Know More" }}
+  </button> -->
+  <div class="d-flex btn-category" *ngIf="isAdmin()">
+    <button class="btn btn-info">Edit</button>
+    <button class="btn btn-danger">Delete</button>
+  </div>
+</ul>

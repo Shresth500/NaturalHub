@@ -1,0 +1,90 @@
+div {
+  opacity: 0.9;
+}
+
+.container {
+  padding-top: 100px;
+}
+
+div {
+  opacity: 0.98;
+}
+// .container {
+//   padding-top: 100px;
+// }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adds spacing between cards */
+  justify-content: flex-start; /* Centers cards horizontally */
+}
+
+.col-md-3 {
+  flex: 0 0 auto;
+  width: 450px; /* Makes each column match card width */
+}
+
+.small-card {
+  width: 100%;
+  width: 400px; /* Adjust as needed */
+  height: 300px; /* Fixed height for uniformity */
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.card-body {
+  flex-grow: 1; /* Stretches the content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden; /* Prevents overflow */
+}
+
+.card-body ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-y: auto; /* Enables scrolling if needed */
+  max-height: 100px; /* Adjust height to fit inside the card */
+}
+
+.bg-lightblue {
+  background-color: #26b9ea; /* Light Blue Header */
+  color: black;
+  font-weight: bold;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.tag {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.remove-tag {
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  outline: none;
+  flex: 1;
+  min-width: 100px;
+}

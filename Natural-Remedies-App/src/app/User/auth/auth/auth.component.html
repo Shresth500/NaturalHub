@@ -1,0 +1,25 @@
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card shadow-lg p-4">
+        <h2 class="text-center">Welcome to Auth</h2>
+        <div class="flex-box">
+          <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+            <li [ngbNavItem]="1">
+              <button ngbNavLink [routerLink]="['/auth', 'login']">
+                Login
+              </button>
+            </li>
+            <li [ngbNavItem]="2">
+              <button ngbNavLink [routerLink]="['/auth', 'register']">
+                SignIn
+              </button>
+            </li>
+          </ul>
+          <hr />
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

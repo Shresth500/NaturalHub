@@ -1,0 +1,34 @@
+ul {
+  .btn-category {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+ul:hover {
+  .btn-category {
+    gap: 20px;
+    visibility: visible;
+  }
+}
+
+.list-active {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-height: 90%; /* Ensures it stays inside the card */
+  overflow-y: auto; /* Enables scrolling if needed */
+}
+
+.list-inactive {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  max-width: 70%;
+  overflow-y: hidden;
+}
+
+.showlist {
+  color: white;
+  cursor: pointer;
+}

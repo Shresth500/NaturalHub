@@ -1,0 +1,92 @@
+<div class="nav">
+  <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+      <!-- Navbar Toggler (Hamburger) -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        (click)="isNavbarCollapsed = !isNavbarCollapsed"
+        aria-controls="navbarNav"
+        [attr.aria-expanded]="!isNavbarCollapsed"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Menu -->
+      <div
+        id="navbarNav"
+        class="collapse navbar-collapse"
+        [class.show]="!isNavbarCollapsed"
+      >
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              routerLink="/remedies"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              Remedies
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="/healthtips"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              Health Tips
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="/shoppingcart"
+              routerLinkActive="active"
+              [routerLinkActiveOptions]="{ exact: true }"
+            >
+              Shopping
+            </a>
+          </li>
+        </ul>
+
+        <!-- Profile Dropdown -->
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li ngbDropdown class="nav-item" role="presentation">
+            <button type="button" class="nav-link" ngbDropdownToggle>
+              <i class="fas fa-user-circle profile-icon"></i> Profile
+            </button>
+            <div ngbDropdownMenu>
+              <button ngbDropdownItem>
+                <a class="dropdown-item" [routerLink]="['/profile', getData()]"
+                  >View Profile</a
+                >
+              </button>
+              <button ngbDropdownItem>
+                <a
+                  class="dropdown-item"
+                  [routerLink]="['/profile', getData(), 'carts']"
+                  >Carts</a
+                >
+              </button>
+              <div class="dropdown-divider"></div>
+              <button ngbDropdownItem class="nav-link">
+                <a
+                  class="dropdown-item"
+                  (click)="logout()"
+                  routerLink="/auth/login"
+                  >Logout</a
+                >
+              </button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <hr />
+  <router-outlet></router-outlet>
+</div>

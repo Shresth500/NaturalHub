@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="card user-card">
+    <div class="card-header bg-primary text-white">
+      <h5 class="mb-0">User Name - {{ userProfile.name }}</h5>
+      <br />
+      <p class="mb-0 text-light small">UserId - {{ userProfile.id }}</p>
+      <br />
+      <p class="mb-0 text-light small">Email - {{ userProfile.email }}</p>
+    </div>
+    <div class="card-body overflow-auto-y">
+      <h6>Orders:</h6>
+      @for(order of userProfile.order;track order.id){
+      <h6>Order - {{ getOrderCount() }}</h6>
+      <div class="order-container">
+        <div class="card order-card" *ngFor="let orderitem of order.products">
+          <div class="card-body">
+            <h6>Product Name - {{ orderitem.name }}</h6>
+            <br />
+            <h6>Quantity - {{ orderitem.quantity }}</h6>
+            <p>Amount - ₹{{ orderitem.price * orderitem.quantity }}</p>
+          </div>
+        </div>
+      </div>
+      <br />
+      }
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="tag-container">
+  <div class="tag" *ngFor="let tag of tags; let i = index">
+    {{ tag }}
+    <span class="remove-tag" (click)="removeTag(i)">×</span>
+  </div>
+  <input
+    type="text"
+    [(ngModel)]="inputValue"
+    (keydown)="addTag($event)"
+    placeholder="Type and press Enter..."
+  />
+</div>
+
+<div class="custom-container">
+  <div class="container mt-4">
+    <div class="row">
+      @for(product of filteredProducts;track product.id){
+      <div class="col-md-4">
+        <div class="card shadow-lg p-3 mb-4">
+          <app-items [items]="product"></app-items>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</div>

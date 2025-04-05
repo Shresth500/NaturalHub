@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="card user-card">
+    <div class="card-header bg-primary text-white">
+      <h5 class="mb-0">Product Name - {{ ProductDetails.name }}</h5>
+    </div>
+    <div class="card-body overflow-auto-y">
+      <p class="mb-0">Product Name - {{ ProductDetails.name }}</p>
+      <p class="mb-0">Product Benefits - {{ ProductDetails.benefits }}</p>
+      <p class="mb-0">Product Description - {{ ProductDetails.description }}</p>
+      <p class="mb-0">Product Quantity - {{ ProductDetails.quantity }}</p>
+      <p class="mb-0">Product Price - {{ ProductDetails.price }}</p>
+    </div>
+
+    <div class="form-group">
+      <button
+        class="btn btn-primary"
+        [disabled]="ProductDetails.quantity === 0"
+        (click)="BuyItem()"
+      >
+        Buy
+      </button>
+      <button
+        class="btn btn-danger"
+        [disabled]="ProductDetails.quantity === 0"
+        (click)="addToCart()"
+      >
+        Add to Cart
+      </button>
+    </div>
+  </div>
+</div>

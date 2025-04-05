@@ -1,0 +1,46 @@
+<!-- <div ngbAccordion>
+  @for(remedies of remediesData; track remedies.id){
+  <div ngbAccordionItem [collapsed]="false">
+    <h2 ngbAccordionHeader>
+      <button ngbAccordionButton>{{ remedies.name }}</button>
+    </h2>
+    <div ngbAccordionCollapse>
+      <div ngbAccordionBody>
+        <ng-template>
+          <app-remedy [remedy]="remedies"></app-remedy>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+  <br />
+  }
+</div> -->
+<div class="tag-container">
+  <div class="tag" *ngFor="let tag of tags; let i = index">
+    {{ tag }}
+    <span class="remove-tag" (click)="removeTag(i)">×</span>
+  </div>
+  <input
+    type="text"
+    [(ngModel)]="inputValue"
+    (keydown)="addTag($event)"
+    placeholder="Type and press Enter..."
+  />
+</div>
+
+<div class="container mt-4">
+  <div class="row">
+    @for(healthtip of filteredhealthTips; track healthtip.id){
+    <div class="col-md-3 col-sm-6 mb-3">
+      <div class="card small-card d-flex flex-column">
+        <div class="card-header bg-lightblue text-white">
+          <h3>{{ healthtip.name }}</h3>
+        </div>
+        <div class="card-body flex-grow-1 d-flex flex-column">
+          <app-tips [healthtips]="healthtip" class="flex-grow-1"></app-tips>
+        </div>
+      </div>
+    </div>
+    }
+  </div>
+</div>

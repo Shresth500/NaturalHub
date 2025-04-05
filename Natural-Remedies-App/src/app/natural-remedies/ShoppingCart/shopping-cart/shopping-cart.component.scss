@@ -1,0 +1,41 @@
+.card {
+  opacity: 0.75;
+  height: 300px;
+}
+
+// .custom-container {
+//   padding-bottom: 100px;
+// }
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.tag {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.remove-tag {
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+input {
+  border: none;
+  outline: none;
+  flex: 1;
+  min-width: 100px;
+}

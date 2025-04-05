@@ -1,0 +1,9 @@
+<div class="card-body">
+  <h5 class="card-title">{{ items.name }}</h5>
+  <p class="card-text">{{ items.description | truncate : 100 }}</p>
+  <button class="btn btn-primary">
+    <a [routerLink]="['/shoppingcart', items.id]" class="color-white"
+      >Know More</a
+    >
+  </button>
+</div>
